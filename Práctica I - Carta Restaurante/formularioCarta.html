@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <title>formulario</title>
+    <link rel="stylesheet" href="css/estilorestaurante.css">
+  </head>
+  <body>
+
+<div class="contenedorW">
+<form class="" action="index.html" method="post">
+
+
+<article class="origen">
+  <p>De donde sos?</p>
+
+
+    <select class="" name="provincia">
+      <option value="men">Mendoza</option>
+      <option value="cor">Cordoba</option>
+      <option value="tie">Tierra Del Fuego</option>
+    </select>
+</article>
+<article class="">
+<p>Que te pareció la iluminacion del ambiente?</p>
+
+  <input type="radio" name="iluminacion" value="muy acorde">
+  <label for="muy acorde">Muy acorde</label>
+  <br>
+
+  <input type="radio" name="iluminacion" value="buena pero podria mejorar">
+  <label for="buena">Buena pero podría mejorar</label>
+  <br>
+
+  <input type="radio" name="iluminacion" value="mala">
+  <label for="mala">Mala</label>
+</article>
+
+
+
+
+    <label for="porque">Por que?</label>
+    <br>
+    <textarea name="name" rows="8" cols="80"></textarea>
+    <br>
+
+
+    <form class="formulario">
+      <div class="form-group">
+        <label id="etiquetanombre" for="exampleInputPassword1">Nombre</label>
+        <input id="entradanombre" type="text" class="form-control" id="nombre" placeholder="ingrese su nombre">
+        <label id="mail" for="exampleInputEmail1">Dirección de Email </label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ingrese su email">
+        <small id="emailHelp" class="form-text text-muted">No vamos a compartir su correo con nadie.</small>
+      </div>
+
+
+
+      </form>
+      <br>
+    <button id="boton-enviar" type="submit" name="button">Enviar</button>
+    <button id= "boton-resetear" type="reset" name="button">Resetear</button>
+
+</div>
+</form>
+  </body>
+</html>
